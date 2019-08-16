@@ -322,6 +322,7 @@ footer {
   font-size: 2rem;
   color: white;
   text-align: center;
+  cursor: pointer;
 }
 .walk .walk-text .btn:hover {
   background-color: #e6e6e6;
