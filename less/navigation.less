@@ -1,12 +1,9 @@
 // Navigation code here
 nav{
-    display:flex;
+    .displayAlignitems();
     flex-direction: column;
     justify-content: space-between;
-    align-items:center;
-    width:100%;
-    border-bottom:2px solid red;
-    
+    max-width:100%;
     background-color: @nav-bg;
     padding:2rem 0;
 
@@ -15,13 +12,7 @@ nav{
         
     }
     
-    
-    // @media @mobile{
-    //     flex-direction:column;
-    //     width:100%;
-    //     align-items:center;
-    //     justify-content: space-between;
-    // }
+
     h1{
         width:48%;
         font-size:4rem;
@@ -34,13 +25,10 @@ nav{
             justify-content: center;
             align-items:center;
             font-size: 3rem;
-            // margin-right: 31px;
+            
         }
         
-        // @media @mobile{
-        //     justify-content: center;
-        //     align-items:center;
-        //   }
+       
     }
 }
 
@@ -62,10 +50,5 @@ nav{
         justify-content: space-around;
         
     }
-    // @media @mobile{
-    //     flex-direction:row;
-    //     width:100%;
-    //     align-items:center;
-    //     justify-content: space-around;
-    // }
+    
 }

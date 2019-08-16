@@ -2,6 +2,10 @@
   width: 90%;
   margin-left: 40px;
 }
+.displayAlignitems {
+  display: flex;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -166,11 +170,10 @@ p {
 }
 nav {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  border-bottom: 2px solid red;
+  max-width: 100%;
   background-color: #F6F6F6;
   padding: 2rem 0;
 }
@@ -218,8 +221,8 @@ footer {
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .home .intro {
   width: 90%;
