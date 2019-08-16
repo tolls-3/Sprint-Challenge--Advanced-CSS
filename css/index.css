@@ -266,7 +266,9 @@ footer {
   text-align: center;
 }
 .home .walk .walk-text .btn:hover {
-  color: #353e5a;
+  background-color: #e6e6e6;
+  transition: 0.5s ease-in-out;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
