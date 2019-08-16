@@ -66,8 +66,23 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-      }
+      .btn{
+        max-width:100%;
+        padding: 1rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        .paraSignBtn(@btn-bg-color,@btnFontSize,@button-font-color);
+    
+        &:hover {
+            
+           color:lighten(@btn-bg-color,10%);
+    
+    }
+    
+        // @media @mobile{
+        //     width:100%;
+        // }
+    }
     }
 
     .walk-img {
