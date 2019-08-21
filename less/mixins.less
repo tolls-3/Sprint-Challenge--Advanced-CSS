@@ -1,1 +1,20 @@
 // Mixins Here
+.mainContentSize{
+    width:90%;
+    margin-left: 40px;
+}
+
+.displayAlignitems{
+    display: flex;
+    align-items: center;
+}
+
+//Parametric Mixins
+
+.paraSignBtn(@btn-bg-color,@btnFontSize,@button-font-color){
+    background-color:@btn-bg-color;
+    font-size:@btnFontSize;
+    color:@button-font-color;
+    text-align:center;
+
+}
